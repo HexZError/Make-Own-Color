@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/2429d9ec04.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>RGB CHOICE</title>
+</head>
+<body>
+	<div class="Top-heading">
+		<p>Welcome</p>
+	<h1>Make Color of Your Own Choice</h1>
+	</div>
+	<div class="rgb-Container">
+		<span>RGB</span>
+		<span>(</span>
+		<span id="R">0</span>
+		<span>,</span>
+		<span id="G">0</span>
+		<span>,</span>
+		<span id="B">0</span>
+		<span>)</span>
+		<button>
+			<i class="fa-solid fa-copy"></i>
+		</button>
+	</div>
+	<div class="button-container">
+	<label>RED</label>
+	<input type="range" min="0" max="255" value="0" id="R-color" oninput="RGBcolor()" class="copyValue">
+	<label>GREEN</label>
+	<input type="range" min="0" max="255" value="0" id="G-color" oninput="RGBcolor()" class="copyValue">
+	<label>BLUE</label> 
+	<input type="range" min="0" max="255" value="0" id="B-color" oninput="RGBcolor()" class="copyValue">
+	</div>
+	<div class="num-section">
+		<span id="R-value">0</span>
+		<span id="G-value">0</span>
+		<span id="B-value">0</span>			
+	</div>
+	<div class="icon-section">
+		<a href="https://www.linkedin.com/in/sourav-mavi-429980197/" target="_blank" title="Linkdin"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="https://github.com/HexZError" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+		<a href="https://www.instagram.com/sourav_mavi__/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+		<a href="https://www.townfact.com/" target="_blank" title="Join Us"><i class="fa-sharp fa-solid fa-user"></i></a>
+	</div>
+	<div class="copyright-section">
+		<p>&copy;2022 Sourav Mavi</p>
+	</div>
+	<script src="mind.js"></script>
+</body>
+</html>
